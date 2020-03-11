@@ -1,0 +1,54 @@
+.mr10 {
+  margin-right: 10px;
+}
+.mr15 {
+  margin-right: 15px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+// .search-card {
+//   margin-bottom: 20px;
+
+//   .el-form--inline .el-form-item {
+//     margin-bottom: 0;
+//   }
+// }
+
+.search-panel {
+  padding: 22px 20px 0;
+  background-color: #fff;
+  border: 1px solid $colorBorder;
+  .el-form-item {
+    margin-right: 50px;
+  }
+  .el-button {
+    margin-left: -30px;
+  }
+}
+.search-btn-panel {
+  margin: 15px 0;
+}
+.table-box {
+  .el-table th {
+    color: $colorText;
+    font-weight: 400;
+    background:linear-gradient(0deg,rgba(240,239,239,1),rgba(255,255,255,1));
+  }
+}
+
+.el-form-item__label {
+  color: $colorText;
+}
+.el-input.is-disabled .el-input__inner {
+  color: $color6;
+}
+.form-box {
+  .el-select,
+  .el-date-editor.el-input {
+    width: 100%;
+  }
+  
+}
